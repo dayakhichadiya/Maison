@@ -1,0 +1,156 @@
+export const products = [
+  {
+    id: 1,
+    title: "Linen Relaxed Blazer",
+    price: 189,
+    originalPrice: 240,
+    category: "Outerwear",
+    tag: "New",
+    rating: 4.8,
+    reviews: 124,
+    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=600&q=80",
+    ],
+    description:
+      "Effortlessly refined, this relaxed-cut blazer is crafted from premium European linen with a naturally breathable weave. Structured shoulders meet an unlined, casual drape for day-to-evening versatility.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Sand", "Charcoal", "Navy"],
+  },
+  {
+    id: 2,
+    title: "Merino Crewneck Sweater",
+    price: 145,
+    originalPrice: null,
+    category: "Knitwear",
+    tag: "Bestseller",
+    rating: 4.9,
+    reviews: 287,
+    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+    ],
+    description:
+      "Woven from 100% extra-fine merino wool, this crewneck is the ultimate everyday essential. Lightweight enough for layering, warm enough to stand alone. Ribbed cuffs and hem ensure a tailored fit.",
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Ivory", "Dusty Rose", "Forest Green", "Slate"],
+  },
+  {
+    id: 3,
+    title: "Tailored Wide-Leg Trousers",
+    price: 215,
+    originalPrice: 265,
+    category: "Trousers",
+    tag: "Sale",
+    rating: 4.7,
+    reviews: 96,
+    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80",
+    ],
+    description:
+      "A modern silhouette with a high rise and fluid wide leg, cut from a Japanese crepe blend that moves beautifully. Press creases and side welt pockets add tailored precision.",
+    sizes: ["24", "26", "28", "30", "32"],
+    colors: ["Chalk White", "Caramel", "Black"],
+  },
+  {
+    id: 4,
+    title: "Silk Slip Dress",
+    price: 298,
+    originalPrice: null,
+    category: "Dresses",
+    tag: "New",
+    rating: 4.9,
+    reviews: 63,
+    image: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&q=80",
+    ],
+    description:
+      "Cut on the bias from charmeuse silk, this slip dress skims the body with liquid elegance. Adjustable spaghetti straps and a delicate lace hem keep the silhouette feminine and effortless.",
+    sizes: ["XS", "S", "M", "L"],
+    colors: ["Champagne", "Midnight Blue", "Blush"],
+  },
+  {
+    id: 5,
+    title: "Oversized Denim Jacket",
+    price: 175,
+    originalPrice: null,
+    category: "Outerwear",
+    tag: null,
+    rating: 4.6,
+    reviews: 152,
+    image: "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80",
+      "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=600&q=80",
+    ],
+    description:
+      "Vintage-inspired and oversized, this Japanese selvedge denim jacket develops character with every wear. Double chest pockets and contrast stitching nod to workwear heritage.",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Indigo", "Light Wash", "Black"],
+  },
+  {
+    id: 6,
+    title: "Ribbed Knit Cardigan",
+    price: 128,
+    originalPrice: 165,
+    category: "Knitwear",
+    tag: "Sale",
+    rating: 4.8,
+    reviews: 201,
+    image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80",
+    ],
+    description:
+      "A wardrobe cornerstone rendered in fine-gauge ribbed knit. Button-through front, relaxed fit, and patch pockets make it equally at home layered over a silk cami or a crisp white shirt.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Oat", "Sage", "Terracotta", "Charcoal"],
+  },
+  {
+    id: 7,
+    title: "Leather Crossbody Bag",
+    price: 320,
+    originalPrice: null,
+    category: "Accessories",
+    tag: "New",
+    rating: 4.9,
+    reviews: 47,
+    image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&q=80",
+    ],
+    description:
+      "Handcrafted from full-grain Italian leather, this compact crossbody features a structured silhouette, an adjustable strap, and a secure magnetic closure. Ages beautifully with use.",
+    sizes: ["One Size"],
+    colors: ["Tan", "Black", "Cognac"],
+  },
+  {
+    id: 8,
+    title: "Cashmere Turtleneck",
+    price: 265,
+    originalPrice: null,
+    category: "Knitwear",
+    tag: "Bestseller",
+    rating: 5.0,
+    reviews: 318,
+    image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80",
+    ],
+    description:
+      "Our finest offering: a Grade A cashmere turtleneck from the highlands of Inner Mongolia. Feather-light yet incredibly warm, with a relaxed fit that feels like wearing a cloud.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Camel", "Ivory", "Burgundy", "Midnight"],
+  },
+];
+
+export const categories = ["All", "Outerwear", "Knitwear", "Trousers", "Dresses", "Accessories"];
+
+export const getProductById = (id) => products.find((p) => p.id === Number(id));
