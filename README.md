@@ -58,7 +58,7 @@ ecommerce-ui/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -81,7 +81,7 @@ Visit **http://localhost:3000**
 
 ---
 
-## 📄 Pages
+## Pages
 
 | Route | Description |
 |---|---|
